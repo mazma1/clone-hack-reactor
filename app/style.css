@@ -1,7 +1,26 @@
-.container {
+body {
+  margin: 0;
+}
+
+.header {
+  background-image: url(img/header-img.jpg);
+  height: 550px;
+  width: 100%;
+  opacity: 0.7;
+}
+
+.top-nav-container {
+  width: 100%;
+  position: fixed;
+  background-color: white;
+}
+
+.top-nav-content {
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 30px;
+  width: 100%;
 }
 
 .display-inline-block {
@@ -14,15 +33,16 @@
 }
 
 .nav-logo-container {
-  padding-top: 36px;
+  padding-top: 30px;
   float: left;
   margin-right: 30px;
 }
 
 .nav-links {
-  padding-top: 45px;
+  padding-top: 35px;
   /*float: right;*/
 }
+
 .nav-links a {
   /*float: left;
   display: block;*/
