@@ -127,3 +127,12 @@ body {
   text-align: center; 
   color: black;
 }
+
+.description {
+    width: 67%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 19px;
+    text-align: justify;
+    line-height: 1.5;
+}
