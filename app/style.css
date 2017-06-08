@@ -1,3 +1,48 @@
-body {
-  background-color: greenyellow;
+.container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.display-inline-block {
+  display: inline-block;
+}
+
+#nav-logo-img {
+  width: 150px;
+  height: 100%;
+}
+
+.nav-logo-container {
+  padding-top: 36px;
+  float: left;
+  margin-right: 30px;
+}
+
+.nav-links {
+  padding-top: 45px;
+  /*float: right;*/
+}
+.nav-links a {
+  /*float: left;
+  display: block;*/
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 17px;
+}  
+
+.down-arrow {
+  font-size: 13px;
+  padding-left: 3px;
+}
+
+.apply-now-btn {
+  padding: 11px 30px;
+  border-radius: 3px;
+  cursor: pointer;
+  border-width: 0;
+  background-color: #0097e3;
+  font-size: 16px;
+  color: #ffffff;
 }
