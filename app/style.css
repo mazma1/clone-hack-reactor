@@ -152,27 +152,66 @@ body {
 
 .gallery-head {
     height: 60px;
-    background-color:#de7c01;
     font-size: 22px;
     color: white;
-    text-align: right;
-    padding-right: 45px;
+}
+
+.gallery-head1 {
+  background-color:#de7c01;
+  text-align: right;
+  padding-right: 45px;
+}
+
+.gallery-head2 {
+  background-color:#0090d9;
+  text-align: center;
+}
+
+.gallery-head3 {
+  background-color:#00b298;
+  text-align: left;
+   padding-left: 45px;
 }
 
 .gallery-img {
-    height: 170px;
-    background-image: url(img/gallery-img1.jpg);
+    height: 170px; 
     opacity: 0.8;
 }
 
+.gallery-img1 {
+  background-image: url(img/gallery-img1.jpg);
+}
+
+.gallery-img2 {
+  background-image: url(img/gallery-img2.jpg);
+}
+
+.gallery-img3 {
+  background-image: url(img/gallery-img3.jpg);
+}
+
 .gallery-desc {
-  background-color: #de7c01;
   padding-top: 40px;
   color: white;
-  text-align: right;
   padding-bottom: 40px;
   font-size: 18px;
+}
+
+.gallery-desc1 {
+  background-color: #de7c01;
+  text-align: right;
   padding-right: 45px;
+}
+
+.gallery-desc2 {
+  background-color: #0090d9;
+  text-align: center;
+}
+
+.gallery-desc3 {
+  background-color: #00b298;
+  text-align: left;
+  padding-left: 45px;
 }
 
 .gallery-btn {
@@ -182,7 +221,6 @@ body {
   border-width: 0;
   font-size: 15px;
   color: #ffffff;
-  margin-left: 20px;
   background-color: #887773;
   border: 1px solid white;
   margin-top: 20px;
