@@ -234,6 +234,7 @@ body {
 .subscription {
   height: 250px;
   background-color:#423e3e;
+  margin-bottom: 70px;
 }
 
 .subscription-text {
@@ -269,4 +270,15 @@ input[type=text], select {
   background-color: #de7c01;
   font-size: 15px;
   color: #ffffff;
+}
+
+footer {
+  background-color: #0090d9;
+  height: 50px;
+}
+
+.footer-text {
+  padding-left: 120px;
+  padding-top: 20px;
+  color: white;
 }
