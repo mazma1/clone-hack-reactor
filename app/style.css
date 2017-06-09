@@ -230,3 +230,43 @@ body {
   color: black;
   background-color: white;
 }
+
+.subscription {
+  height: 250px;
+  background-color:#423e3e;
+}
+
+.subscription-text {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 70px;
+  margin-top: 300px;
+  color: white;
+  font-weight: normal;
+}
+
+input[type=text], select {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.subscription-container {
+  margin-left: auto;
+  text-align: center;
+  margin-right: auto;
+}
+
+.syllabus-btn {
+  padding: 11px 30px;
+  border-radius: 3px;
+  cursor: pointer;
+  border-width: 0;
+  background-color: #de7c01;
+  font-size: 15px;
+  color: #ffffff;
+}
